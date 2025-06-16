@@ -142,6 +142,7 @@ summary_stats <- expr_df %>%
   ungroup()
 
 print(summary_stats)
+sessionInfo()
 
 #gene       n mean_neuro mean_mpnst median_neuro median_mpnst   p_value
 #FAP       79       7.73      10.1          7.19        10.6  0.0000234
