@@ -24,7 +24,7 @@ This repository includes five R scripts that replicate the key transcriptomic an
 |---------------------------------------|------------------------------------------------------------------------------------------------|
 | `01_Bulk_RNA_EBioMed2023.R`           | Analysis of bulk RNA expression data from the EBioMedicine 2023 dataset (GSE241224), comparing FAP expression between neurofibromas and MPNSTs. |
 | `02_Bulk_RNA_MolOncol2015.R`          | Analysis of bulk RNA expression data from Molecular Oncology 2015 dataset (GSE66743) for validation of FAP expression patterns. |
-| `03_Spatial_Transcritpomics_MPNST_NF_NeuroOncology_2025.R` | Processing and analysis of spatial transcriptomics data (10x Genomics Visium) from NF1-associated peripheral nerve tumors, focusing on spatial FAP expression and co-localization with tumor and stromal markers. |
+| `03_Spatial_Transcriptomics_MPNST_NF_NeuroOncology_2025.R` | Processing and analysis of spatial transcriptomics data (10x Genomics Visium, [https://doi.org/10.5281/zenodo.14248993](https://doi.org/10.5281/zenodo.14248993)) from NF1-associated peripheral nerve tumors, focusing on spatial FAP expression and co-localization with tumor and stromal markers. |
 | `04_scRNA_MPNST_SciAdv2022.R`         | Single-cell RNA-sequencing analysis of NF1-associated MPNST samples (GSE179033), including clustering, marker identification, and differentiation trajectory analysis. |
 | `05_TCGA_FAP_Sarcoma_PanCancerAtlas.R` | Analysis of FAP gene expression across sarcoma subtypes in the TCGA PanCancer Atlas dataset. |
 
