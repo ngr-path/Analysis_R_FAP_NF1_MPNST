@@ -1,38 +1,36 @@
-# FAP Expression as a Marker of Malignancy Enabling In-Vivo Imaging in NF1-Associated Peripheral Nerve Tumors: A Multimodal and Translational Study
+#  FAP Expression as a Marker of Malignancy Enabling In-Vivo Imaging in NF1-Associated Peripheral Nerve Tumors: A Multimodal and Translational Study
 
 **Short Title:** FAP in malignant transformation in NF1  
 **Keywords:** Neurofibromatosis Type I, FAP, Fibroblast Activation Protein, Molecular Imaging, PET, MPNST
 
 ---
 
-## Overview
+## 📖 Overview
 
 This repository contains the analysis scripts and supporting code used in the study titled:
 
-**"FAP Expression as a Marker of Malignancy Enabling In-Vivo Imaging in NF1-Associated Peripheral Nerve Tumors: A Multimodal and Translational Study"**
+**FAP Expression as a Marker of Malignancy Enabling In-Vivo Imaging in NF1-Associated Peripheral Nerve Tumors: A Multimodal and Translational Study**
 
-This work investigates Fibroblast Activation Protein (FAP) as a diagnostic biomarker and theranostic target distinguishing malignant peripheral nerve sheath tumors (MPNSTs) from benign neurofibromas in Neurofibromatosis Type I (NF1) patients. Using bulk, spatial, and single-cell transcriptomic datasets combined with immunohistochemistry and clinical PET/CT imaging data, we demonstrate the elevated expression of FAP in MPNSTs, supporting its potential as a clinical imaging target.
+This work investigates Fibroblast Activation Protein (FAP) as a diagnostic biomarker and theranostic target distinguishing malignant peripheral nerve sheath tumors (MPNSTs) from benign neurofibromas in Neurofibromatosis Type I (NF1) patients. Using bulk, spatial, and single-cell transcriptomic datasets combined with immunohistochemistry and clinical PET/CT imaging data, we demonstrate the elevated expression of FAP in MPNSTs, supporting its potential as a clinical imaging target. Our findings suggest that FAP expression is closely linked to the malignant transformation of benign neurofibromas into MPNSTs, addressing a critical clinical challenge in NF1 patient management.
 
-The manuscsript is currently under review.
+*The manuscsript is currently under review.*
 
 ---
-## Repository Structure and Scripts
+## 📝 Repository Structure and Scripts
 
-This repository includes five R scripts that replicate the key transcriptomic analyses presented in the manuscript:
+This repository includes five R scripts that replicate the transcriptomic analyses presented in the manuscript:
 
-| Script Name                             | Description                                                                                      |
+|  📁  Script Name                      | 📄 Description                                                                                 |
 |---------------------------------------|------------------------------------------------------------------------------------------------|
-| `01_Bulk_RNA_EBioMed2023.R`           | Analysis of bulk RNA expression data from the EBioMedicine 2023 dataset (GSE241224), comparing FAP expression between neurofibromas and MPNSTs. |
-| `02_Bulk_RNA_MolOncol2015.R`          | Analysis of bulk RNA expression data from Molecular Oncology 2015 dataset (GSE66743) for validation of FAP expression patterns. |
-| `03_Spatial_Transcriptomics_MPNST_NF_NeuroOncology_2025.R` | Processing and analysis of spatial transcriptomics data (10x Genomics Visium, [https://doi.org/10.5281/zenodo.14248993](https://doi.org/10.5281/zenodo.14248993)) from NF1-associated peripheral nerve tumors, focusing on spatial FAP expression and co-localization with tumor and stromal markers. |
+| `01_Bulk_RNA_EBioMed2023.R`           | Analysis of bulk RNA expression data from the *eBioMedicine* 2023 dataset (GSE241224), comparing FAP expression between neurofibromas and MPNSTs. |
+| `02_Bulk_RNA_MolOncol2015.R`          | Analysis of bulk RNA expression data from *Molecular Oncology* 2015 dataset (GSE66743) for validation of FAP expression patterns. |
+| `03_Spatial_Transcriptomics_MPNST_NF_NeuroOncology_2025.R` | Processing and analysis of spatial transcriptomics data published in *Neuro-Oncology* in 2025 (10x Genomics Visium, [https://doi.org/10.5281/zenodo.14248993](https://doi.org/10.5281/zenodo.14248993)) from NF1-associated peripheral nerve tumors, focusing on spatial FAP expression and co-localization with tumor and stromal markers. |
 | `04_scRNA_MPNST_SciAdv2022.R`         | Single-cell RNA-sequencing analysis of NF1-associated MPNST samples (GSE179033), including clustering, marker identification, and differentiation trajectory analysis. |
 | `05_TCGA_FAP_Sarcoma_PanCancerAtlas.R` | Analysis of FAP gene expression across sarcoma subtypes in the TCGA PanCancer Atlas dataset. |
 
-
-
 ---
 
-## References
+## 📚 References
 
 For more information on the datasets that were used, please refer to the following manuscripts:
 - Comprehensive and Integrated Genomic Characterization of Adult Soft Tissue Sarcomas. Cell. 2017 Nov 2;171(4):950-965.e28. doi: 10.1016/j.cell.2017.10.014
@@ -44,9 +42,18 @@ Suppiah S, Mansouri S, Mamatjan Y, et al. Multiplatform molecular profiling unco
 
 ---
 
-## Contact
+## 🚀 Generalization: A Conceptual Framework for Molecular Imaging - Omics Integration
+
+Beyond the specific investigation of FAP in NF1-associated sarcomas, our study highlights the potential of integrating high-resolution transcriptomic profiling (bulk, spatial, and single-cell) with clinical molecular imaging data (PET/CT).
+
+This approach demonstrates how molecular imaging targets, such as FAP or glucose transporters (GLUT1/3 encoded by *SLC2A1/3* for FDG-PET), can be systematically evaluated by linking their spatial and cell-type-specific expression to histopathological features and clinical imaging.
+
+While not providing a direct, ready-to-use analysis pipeline, this multimodal strategy offers a valuable conceptual framework that can be adapted to other tumor types and imaging biomarkers, such as PSMA, SSTR, CXCR4, CAIX, Glypican-3 and others, facilitating the development of precise, non-invasive diagnostic tools and identifying theranostic targets for translational oncology.
+
+---
+
+## 📧🤝 Contact
 
 For questions or collaborations, please contact:  
-**Dr. med. Nic G. Reitsam**  
-**Pathology, Faculty of Medicine, University of Augsburg, Augsburg, Germany**  
-**Email:** nic.reitsam@uk-augsburg.de
+Dr. med. Nic G. Reitsam,
+Pathology, Faculty of Medicine, University of Augsburg, Augsburg, Germany; Email: nic.reitsam@uk-augsburg.de
