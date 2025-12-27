@@ -13,7 +13,7 @@ This repository contains the analysis scripts and supporting code used in the st
 
 This work investigates Fibroblast Activation Protein (FAP) as a diagnostic biomarker and theranostic target distinguishing malignant peripheral nerve sheath tumors (MPNSTs) from benign neurofibromas in Neurofibromatosis Type I (NF1) patients. Using bulk, spatial, and single-cell transcriptomic datasets combined with immunohistochemistry and clinical PET/CT imaging data, we demonstrate the elevated expression of FAP in MPNSTs, supporting its potential as a clinical imaging target. Our findings suggest that FAP expression is closely linked to the malignant transformation of benign neurofibromas into MPNSTs, addressing a critical clinical challenge in NF1 patient management.
 
-*The manuscsript is currently under review.*
+*The manuscript is currently under review (revised).*
 
 ---
 ## 📝 Repository Structure and Scripts
